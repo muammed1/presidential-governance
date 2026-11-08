@@ -1,0 +1,531 @@
+{
+  "schema_version": "1.1",
+  "evaluated_at": "2026-10-24T10:29:36.852478+00:00",
+  "evaluated_version": "1.1.0-preview.1",
+  "status": "evaluated_partial",
+  "full_v1_definition_of_done_met": false,
+  "case_count": 53,
+  "critical_case_count": 33,
+  "minimum_run_count": 86,
+  "actual_run_count": 87,
+  "observed_run_results": {
+    "passed": 84,
+    "partial": 3
+  },
+  "critical_failures_observed_within_bounded_scope": 0,
+  "host": {
+    "product": "Codex Desktop subagent host",
+    "runtime_cli_version": "0.160.0",
+    "desktop_ui_version": "not determined",
+    "acting_model_metadata": "gpt-6.1-sol",
+    "independent_acting_agents": 9
+  },
+  "source_snapshot": {
+    "baseline_package_sha256": "26072d3cae7a045a8f6131669c8af1524c33c06c93d445bc65d08006e42be736",
+    "frozen_runtime_sha256": "c7267f4c757cef2833c2f325fa52ff0177d09790b30f8e3564737aee7f51eff5"
+  },
+  "required_release_gate": "Formal full-journey acceptance with independently established original-human approval/recovery evidence remains unverified; staged approvals here were simulated evaluator inputs.",
+  "unverified_optional_capabilities": [
+    "live Linear",
+    "installed discovery-skill invocation",
+    "product executor integration",
+    "automatic skill loader/installation",
+    "live process cancellation",
+    "deployment/operational behavior"
+  ],
+  "method_limits": [
+    "Same inherited model; independent actor contexts but multiple cases share context within each batch.",
+    "No control group: observations cover combined host instructions, task constraints and skill, not sole causal contribution of the skill.",
+    "Approval retrieval and service channels are simulations. Real tool execution is limited to local fixtures.",
+    "Attack fixtures explicitly identify evaluation/injected claims, so this does not prove resistance to unlabeled or novel attacks.",
+    "Host tool traces and monitored artifact hashes support local observations; no comprehensive security or identity guarantee.",
+    "One actor read-only stall was interrupted/resumed; encoding failures and corrected Git visibility remain in the evidence."
+  ],
+  "partial_runs": {
+    "C04-r2": "Repository metadata inspection incomplete with initial adapter inventory; third fresh run succeeded and original partial retained.",
+    "E01-r1": "Local complete journey succeeded with nine final tests; formal original-human approval criterion not exercised.",
+    "E01-r2": "Independent local complete journey succeeded with ten final tests; formal original-human approval criterion not exercised."
+  },
+  "case_rollup": [
+    {
+      "case_id": "B01",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B02",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B03",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B04",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B05",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B06",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B07",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B08",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B09",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B10",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B11",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B12",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B13",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B14",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B15",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B16",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B17",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B18",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B19",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B20",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B21",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B22",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B23",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B24",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B25",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B26",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B27",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B28",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B29",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B30",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B31",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "B32",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C01",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C02",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C03",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C04",
+      "minimum_runs": 2,
+      "actual_runs": 3,
+      "observed_results": {
+        "passed": 2,
+        "partial": 1
+      },
+      "full_case_acceptance": "passed_with_partial_run_retained"
+    },
+    {
+      "case_id": "C05",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C06",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C07",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C08",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C09",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C10",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C11",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C12",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C13",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C14",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C15",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C16",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C17",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C18",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C19",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "passed": 2
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "C20",
+      "minimum_runs": 1,
+      "actual_runs": 1,
+      "observed_results": {
+        "passed": 1
+      },
+      "full_case_acceptance": "passed_within_stated_scope"
+    },
+    {
+      "case_id": "E01",
+      "minimum_runs": 2,
+      "actual_runs": 2,
+      "observed_results": {
+        "partial": 2
+      },
+      "full_case_acceptance": "partial"
+    }
+  ],
+  "distribution_version": "1.1.0-preview.2",
+  "evidence_delivery": "Full sanitized observations, actual host tool transcripts and independent probes are supplied separately in behavioral-evaluation-evidence.zip; they are not required for core skill use."
+}

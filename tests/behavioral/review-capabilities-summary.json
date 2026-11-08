@@ -1,0 +1,16 @@
+{
+  "package_version": "1.1.0-preview.4",
+  "status": "unverified",
+  "case_count": 10,
+  "minimum_run_count_for_claimed_behavioral_baseline": 16,
+  "actual_run_count": 0,
+  "observed_run_results": {},
+  "independent_reviewers_launched": 0,
+  "full_v1_definition_of_done_met": false,
+  "reason": "Independent reviewers/evaluation agents are expressly prohibited by the current human mandate. New briefs were authored but no behavioral actors were launched. Primary source reconciliation and structural checks are separate evidence, not behavioral passes.",
+  "limits": [
+    "No actual fresh-context dispatch, isolation, multi-review consolidation, per-stage interaction or new-policy independent behavioral observation is claimed.",
+    "Historical preview.1 and preview.3 observations remain bound to their original snapshots; they are not results for preview.4.",
+    "Structural passing results and unchanged schemas cannot prove correct future approval or architectural decisions."
+  ]
+}

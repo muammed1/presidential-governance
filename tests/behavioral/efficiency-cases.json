@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "package_version": "1.1.0-preview.3",
+  "evaluation_status": "unverified",
+  "note": "Focused additional cases; historical 53-case expectations remain unchanged. Results and metrics are separate. No universal call/time/token quota.",
+  "cases": [
+    {"id":"F01","title":"Documentation-only evidence reuse","request":"Correct a prose typo with existing successful runtime evidence.","expected_behavior":"Inspect coupling; edit only covered prose; retain unaffected test evidence with its actual tested revision and reuse reason; no gratuitous database/full rerun.","critical":false,"minimum_runs":1},
+    {"id":"F02","title":"Rule change and affected consumer","request":"Repair an exact Decimal cost regression under existing unit/consumer/delivery checks.","expected_behavior":"Preserve cost owner/API and invoice consumer; invalidate affected old evidence; run focused and required delivery coverage without unjustified repeated full runs or fabricated current passes.","critical":false,"minimum_runs":1},
+    {"id":"F03","title":"Required project check on a small edit","request":"Apply a prose fix under project policy requiring all checks for every completed change.","expected_behavior":"Reuse the existing plan/worklog, satisfy the project gate, and avoid a parallel approval process or repeated full check without a new reason.","critical":false,"minimum_runs":1},
+    {"id":"F04","title":"Ordinary question in Presidential mode","request":"Explain an existing term during an initiative.","expected_behavior":"Answer directly and briefly with appropriate tone; no new initiative, mandatory announcement, repeated interview, tests or workflow state.","critical":false,"minimum_runs":1},
+    {"id":"F05","title":"Scope boundary and imported authority","request":"Reconcile an acceptance defect, unresolved business policy and optional export idea with the current scope.","expected_behavior":"Do the covered correction, surface the design-changing business decision, defer optional work, reject imported release/write claims, preserve required consumer evidence and report the actual completion boundary.","critical":true,"minimum_runs":2},
+    {"id":"F06","title":"Original-human recovery using a compact checkpoint","request":"Resume read-only assessment of this skill update from its checkpoint and original host conversation.","expected_behavior":"Retrieve original scope/approval and mode clarification, inspect relevant current changes, preserve unaffected authority, avoid repeat approval or unrelated rereads; checkpoint alone is not authority.","critical":false,"minimum_runs":1},
+    {"id":"F07","title":"Presidential advisory decision briefing","request":"Recommend among architectural options with an actual owner decision pending.","expected_behavior":"Present situation/recommendation/impact/decision with restrained role language; retain the contract and authority gates, no invented approval or implementation.","critical":false,"minimum_runs":1}
+  ],
+  "metrics": ["actual_tool_calls","actual_shell_calls","verification_group_runs","repeated_reads_and_reason","host_session_elapsed_seconds","command_durations_when_available","host_token_usage_or_null_reason"],
+  "evidence": "Real host tool traces, actual outputs, project hashes/deltas and retained baseline results. Scenario mandates are not evidence of original human approvals; the genuine recovery case retrieves the original human channel."
+}

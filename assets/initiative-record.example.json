@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.1",
+  "initiative_id": "8247b1de-06f7-4dac-9502-1f065e4fc8bd",
+  "title": "EXAMPLE ONLY — catalog export proposal",
+  "record_revision": 1,
+  "interaction_state": "active",
+  "work_state": "planned",
+  "current_plan_ref": "plan-v001",
+  "source_refs": [
+    {"id": "plan-v001", "kind": "plan", "locator": "example-only:catalog-export/plan-v001", "version": "plan-v001"},
+    {"id": "requirements", "kind": "requirement", "locator": "example-only:catalog-export/requirements"}
+  ],
+  "authorizations": [
+    {
+      "authorization_id": "example-implementation-request",
+      "initiative_id": "8247b1de-06f7-4dac-9502-1f065e4fc8bd",
+      "actions": ["implement", "run_tests"],
+      "plan_ref": "plan-v001",
+      "scope": {"target": "example catalog export module", "environment": "disposable local fixture", "boundaries": ["approved export behavior and affected consumer tests"]},
+      "preconditions": ["User approves this plan and grants execution in a trusted channel"],
+      "exclusions": ["external writes", "paid services", "production", "delivery operations"],
+      "duration": "bounded implementation and local verification",
+      "evidence_ref": null,
+      "status": "pending",
+      "status_change_ref": null,
+      "carry_forward_plan_refs": []
+    }
+  ],
+  "task_links": [{"task_ref": "example-export-01", "plan_ref": "plan-v001", "status": "draft", "issue_id": null, "url": null}],
+  "operation_attempts": [],
+  "evidence_refs": [],
+  "open_items": [{"id": "execution-gate", "kind": "gate", "required": true, "status": "open", "reference": "example-only:trusted-execution-instruction-needed"}],
+  "next_action": "Present the example plan; this example contains no live authorization"
+}

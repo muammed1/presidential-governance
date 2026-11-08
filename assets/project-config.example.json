@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.1",
+  "presentation_mode": "Professional",
+  "roles": {"user": "Project Owner", "advisor": "Technical Advisor"},
+  "language": "follow_user",
+  "formality": "concise_professional",
+  "planning_depth": "proportional",
+  "documentation_layout": "discover",
+  "issue_tracker": "detect",
+  "execution": "primary",
+  "delegation": "explicit_authorization",
+  "storage": "approved_existing_or_conversation",
+  "shared_record_editing": "single_writer"
+}

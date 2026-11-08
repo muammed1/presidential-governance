@@ -1,0 +1,11 @@
+{
+  "fixture_only": true,
+  "stable_task_ref": "example-export-01",
+  "intended_action": "create_issue",
+  "plan_ref": "plan-v001",
+  "response": "interrupted",
+  "outcome": "unknown",
+  "search_observation": "permission_denied",
+  "external_id": null,
+  "external_url": null
+}
