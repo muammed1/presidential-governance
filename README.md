@@ -4,7 +4,7 @@
 
 A portable Agent Skill for sustained project work: understand the problem, resolve consequential decisions, agree on a bounded plan, implement with permission, and verify the result. Work scales to the task and reuses the project's existing process.
 
-**[Installation and download](docs/INSTALLATION.md) · [دليل الاستخدام بالعربية](docs/USAGE.ar.md) · [Validation and limitations](VALIDATION.md)**
+**[Installation and download](docs/INSTALLATION.md) · [English usage guide](docs/USAGE.en.md) · [دليل الاستخدام بالعربية](docs/USAGE.ar.md) · [Validation and limitations](VALIDATION.md)**
 
 This is an instruction skill, not an approval authentication service or a security boundary. Full V1 acceptance and production readiness have not been established. A limited local B/C trial exercised three actual no-parent-history reviewers. Shared file visibility was demonstrated; no security isolation is claimed. See the [review trial](docs/REVIEW-TRIAL-2026-11-08.md).
 
@@ -89,5 +89,7 @@ If a required check is unavailable, report the affected gap. Reconcile uncertain
 This preview does not provide a scheduler, fleet/model routing, concurrent shared records, distributed locks, cryptographic approvals, universal installers or a hosted platform. No integrations are installed automatically.
 
 ## Contributing and license
+
+Contributions are welcome through **fork → branch → pull request → maintainer review → merge**. You do not need direct write access to propose a change. See [CONTRIBUTING](CONTRIBUTING.md) for the steps and [Maintaining this project](docs/MAINTAINING.md) for the owner's review/release workflow. New documentation on `main` does not replace an already published release archive.
 
 Read [CONTRIBUTING](CONTRIBUTING.md), [CHANGELOG](CHANGELOG.md), [compatibility evidence](references/compatibility.md) and [source/attribution notes](references/upstream-review.md). Original content is [MIT licensed](LICENSE); optional external sources retain their own terms. This public candidate adds documentation and checkout-compatible test support to preview.4; core skill instructions, references, templates, helper and behavioral evidence are unchanged.

@@ -81,7 +81,7 @@ Help me inspect this project and propose a small plan.
 Discovery only; no edits or independent agents.
 ```
 
-The [Arabic usage guide](USAGE.ar.md) and [README](../README.md) explain modes, approvals and review choices. Loading the skill grants no project execution or independent dispatch permission.
+The [English usage guide](USAGE.en.md), [Arabic usage guide](USAGE.ar.md) and [README](../README.md) explain modes, approvals and review choices. Loading the skill grants no project execution or independent dispatch permission.
 
 ## Update, remove or recover
 
